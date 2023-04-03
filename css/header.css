@@ -8,7 +8,8 @@
     font-weight: 500;
     transition: background-color 0.3s ease 0s;
     line-height: 1.43;
-    padding: 16px 30px ;
+    padding: 16px 30px;
+    transition: all 0.7s ease 0s;
     
 }
 @media (max-width: 991.98px) {
@@ -18,7 +19,9 @@
 }
 
 .button:hover {
-    background-color: rgb(64, 173, 79)
+    background-color: rgb(64, 173, 79);
+    transform:  translate(0px, -7px);
+    
 }
 .header {
     position: fixed;
@@ -50,7 +53,10 @@
 }
 
 .header__logo {
-    
+     transition: all ease 0.7s 0s;
+}
+.header__logo:hover {
+    transform: translate(0px, -7px);
 }
 .header__menu {
     flex: 1 1 auto;
@@ -71,10 +77,14 @@
 .menu__link {
     font-size: 16px;
     line-height: 1.63;
+    transition: all   0.8s ease 0s;
+   
    
 }
 .menu__link:hover {
-    text-decoration: underline;
+    /* text-decoration: underline; */
+    color: rgb(129, 129, 139);
+    
 }
 .header__cart {
 }
@@ -98,8 +108,13 @@
    font-size: 14px;
    font-weight: 500;
 }
-.cart-header:hover .cart-header__text{
-    text-decoration: underline;
+
+.cart-header:hover {
+    /* text-decoration: underline; */
+    color: rgb(129, 129, 139);
+}
+.cart-header__text:hover {
+    color: rgb(129, 129, 139);
 }
 .header__button {
     flex: 0 0 auto

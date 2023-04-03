@@ -26,8 +26,15 @@
     font-size: 51px;
     line-height: 1.19;
     color: #fff;
-    
+
+    /* transform: translate(0px, 120%);
+    opacity: 0.5;
+    transition: all 0.8s ease 0s; */
 }
+/* .header-main__title._active {
+    transform: translate(0px, 0px);
+    opacity: 1;
+} */
 .header-main__title:not(:last-child){
     margin-bottom: 28px;
 } 

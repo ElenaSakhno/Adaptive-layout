@@ -6,7 +6,8 @@
  }
  a {
     text-decoration: none;
-    color: rgb(255, 255, 255)
+    color: rgb(255, 255, 255);
+    transition: all ease 0.8s 0s;
 }
 li {
     list-style-type: none;
