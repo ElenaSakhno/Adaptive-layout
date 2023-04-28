@@ -1,12 +1,7 @@
-.page__why {
-}
 .why {
     padding-top: 100px;
     padding-bottom: 100px;
    }
-.why__container {
-    
-}
 .why__column {
     display: flex;
     column-gap: 64px;
@@ -59,11 +54,6 @@
 .why__content {
     flex: 0 1 50%;
     align-self: center;
-}
-.why__header {
-}
-.header-main__list {
-
 }
 .header-main__list li {
     position: relative;

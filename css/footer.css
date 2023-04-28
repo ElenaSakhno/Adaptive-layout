@@ -1,10 +1,6 @@
-.footer {
-}
 .footer__main {
     padding-top: 160px;
     padding-bottom: 160px;
-}
-.main-footer {
 }
 .main-footer__container {
     display: grid;
@@ -37,12 +33,6 @@
     flex-direction: column;
     gap: 30px;
 }
-.main-footer__logo {
-}
-.main-footer__text {
-}
-.main-footer__social {
-}
 .social {
     display: flex;
     gap : 16px;
@@ -65,28 +55,12 @@
     color: #fff;
     transform: translate(0px, -7px);
 }
-.fa-brands {
-}
-.fa-linkedin-in {
-}
-.fa-twitter {
-}
-.fa-facebook-f {
-}
-.fa-youtube {
-}
-.fa-square-instagram {
-}
 .main-footer__label {
     font-size: 20px;
     color: #fff;
     font-weight: 500;
     /* 24/20=1.2 */
     line-height: 1.2;
-}
-.main-footer__menu {
-}
-.menu-footer {
 }
 .menu-footer__list {
     display: grid;
@@ -101,9 +75,6 @@
 .menu-footer__link:hover {
     color: #fff;
 }
-
-.main-footer__subscribe {
-}
 .subscribe {
     display: flex;
     gap: 16px;
@@ -112,10 +83,6 @@
     .subscribe {
         flex-direction: column;
     }
-}
-.subscribe__text {
-}
-.subscribe__form {
 }
 .subscribe__input {
     width: 100%;
@@ -136,16 +103,10 @@
 .subscribe__button {
     color: #fff;
 }
-
-.footer__bottom {
-}
-
 .bottom-footer {
     border-top: 1px solid rgba(129, 129, 139, 0.2);
     padding-top: 45px;
     padding-bottom: 45px;
-}
-.bottom-footer__container {
 }
 .bottom-footer__copy {
     text-align: center;

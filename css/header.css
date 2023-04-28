@@ -30,6 +30,11 @@
     left: 0;
     z-index: 50;
     background-color: rgba(13, 13, 17, 0.7);
+    opacity: 0;
+    transition: all 0.8s ease 0.2s;
+}
+.header._active {
+    opacity: 1;
 }
 .header__container {
     display: flex;
@@ -44,14 +49,12 @@
     background-color: black;
     display: none;
 }
-/* Вытягиваю логотип, корзину, кнопку в бургер меню */
 .header__logo,
 .header__cart,
 .header__button {
     position:relative;
     z-index: 5;
 }
-
 .header__logo {
      transition: all ease 0.7s 0s;
 }
@@ -61,11 +64,6 @@
 .header__menu {
     flex: 1 1 auto;
 }
-.menu {
-}
-.menu__icon {
-}
-
 .menu__list {
     display: flex;
     flex-wrap: wrap;
@@ -73,20 +71,14 @@
     column-gap: 35px;
      row-gap: 10px ;  
 }
-
 .menu__link {
     font-size: 16px;
     line-height: 1.63;
-    transition: all   0.8s ease 0s;
-   
+    transition: all   0.8s ease 0s;  
    
 }
 .menu__link:hover {
-    /* text-decoration: underline; */
-    color: rgb(129, 129, 139);
-    
-}
-.header__cart {
+   color: rgb(129, 129, 139);    
 }
 .cart-header {
     display: flex;
@@ -110,8 +102,7 @@
 }
 
 .cart-header:hover {
-    /* text-decoration: underline; */
-    color: rgb(129, 129, 139);
+   color: rgb(129, 129, 139);
 }
 .cart-header__text:hover {
     color: rgb(129, 129, 139);

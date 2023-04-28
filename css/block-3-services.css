@@ -14,8 +14,6 @@
 .header-main__label:hover {
     border: 1px solid rgba(129, 129, 139, 0.4);
 }
-.page__services {
-}
 .services {
     padding-top: 70px;
     padding-bottom: 100px;
@@ -29,23 +27,14 @@
     flex: 0 1 50%;
     align-self: center;
 }
-.services__header {
-}
-
 .services__items {
     flex: 0 1 50%;
     display: flex;
     gap: 32px;
     justify-content: center;
 }
-.services__column {
-   
-}
 .services__column:first-child {
     padding-top: 48px;
-}
-.services__item {
-
 }
 .services__item:not(:last-child) {
     margin-bottom: 32px;
@@ -58,8 +47,36 @@
     transition: background-color 0.3s ease 0s;
     cursor: pointer; 
     transition: all 0.8s ease 0s; 
+    opacity: 0;
 }
-.item-service:hover  {
+.services__column._active .item-service {
+    opacity: 1;
+}
+.services__column._active .show_3 {
+    transition: all 0.8s ease 0.2s;
+}
+.services__column._active .show_1 {
+    transition: all 0.8s ease 0.6s;
+}
+.services__column._active .show_4 {
+    transition: all 0.8s ease 1s;
+}
+.services__column._active .show_2 {
+    transition: all 0.8s ease 1.4s;
+}
+/* .item-service._active */
+.service_1:hover {
+    transition: all 0.8s ease 0s; 
+    background-color: rgb(61, 150, 244);
+} .service_2:hover {
+    transition: all 0.8s ease 0s; 
+    background-color: rgb(61, 150, 244);
+}
+.service_3:hover {
+    transition: all 0.8s ease 0s; 
+    background-color: rgb(61, 150, 244);
+} .service_4:hover {
+    transition: all 0.8s ease 0s; 
     background-color: rgb(61, 150, 244);
     
 }
@@ -72,8 +89,6 @@
 .item-service:hover .item-service__text  {
     color: #fff;
     transform: translateY(-50px);
-}
-.item-service__icon {
 }
 .item-service__icon img {
     width: 61px;
@@ -107,7 +122,6 @@
     .services__container {
         flex-direction: column;
     }
-    /*  max-width: none; не поняла */
     .services__header .header-main__title,
     .services__header .header-main__text {
         max-width: none;
